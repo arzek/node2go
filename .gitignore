@@ -1,0 +1,24 @@
+# Pinned tool binaries and tool caches (recreated by ./course tools).
+/.tools/
+/.cache/
+
+# Build and test artefacts.
+*.test
+*.out
+*.prof
+/bin/
+/dist/
+coverage.*
+
+# Local environment overrides (never commit secrets).
+.env
+.env.local
+
+# Editors and OS.
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Build-time artefacts of the course construction (seed slice, spikes, briefs).
+/.build/
